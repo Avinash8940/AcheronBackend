@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: FULLSTACK-SERVICE
+  config:
+    import: configserver:http://${host}:${port}

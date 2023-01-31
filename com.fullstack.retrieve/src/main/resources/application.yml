@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: FULLSTACK-RETRIEVE
+  config:
+    import: configserver:http://${host}:${port} 

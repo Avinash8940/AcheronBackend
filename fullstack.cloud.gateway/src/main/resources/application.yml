@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: GATEWAY
+  config:
+    import: configserver:http://${host}:${port}

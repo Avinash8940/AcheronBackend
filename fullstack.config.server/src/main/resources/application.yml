@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: FULLSTACK_CONFIG
+    
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Avinash8940/fullstack-backend
+          
+eureka:
+  client:
+    service-url:
+      default-zone: http://eureka-server
